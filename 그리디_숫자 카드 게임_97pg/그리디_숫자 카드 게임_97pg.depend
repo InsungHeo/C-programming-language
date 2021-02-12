@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1613051781 source:c:\users\isheo\onedrive\바탕 화면\컴퓨터언어\c언어\그리디_숫자 카드 게임_97pg\main.c
+	<stdio.h>
+	<stdlib.h>
+
