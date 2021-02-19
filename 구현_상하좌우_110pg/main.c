@@ -27,23 +27,23 @@ int main()
     {
         if(move[i] == 'L')
         {
-            if(x != 1)
-                x--;
-        }
-        if(move[i] == 'R')
-        {
-            if(x != n)
-                x++;
-        }
-        if(move[i] == 'U')
-        {
             if(y != 1)
                 y--;
         }
-        if(move[i] == 'D')
+        if(move[i] == 'R')
         {
             if(y != n)
                 y++;
+        }
+        if(move[i] == 'U')
+        {
+            if(x != 1)
+                x--;
+        }
+        if(move[i] == 'D')
+        {
+            if(x != n)
+                x++;
         }
     }
 
